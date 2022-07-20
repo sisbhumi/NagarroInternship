@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+
+}
+#myInput{
+    max-width: max-content;
+}
+#center{
+    width: 500px;
+    text-align: center;
+}
+body{
+    background: linear-gradient(90deg, rgb(164, 84, 218) 0%,
+                                     rgb(236, 65, 65) 50%, 
+                                     rgb(252, 176, 69) 100%);
+
+}
+
+button{
+    --button-padding:var(--spacing-xl) var(--spacing-sm) var(--spacing-md) var(--spacing-sm); 
+    --button-background:var(--white); 
+    --button-hover-background:var(--fa-transparent); 
+    --button-color:var(--fa-md-gravy); 
+    --button-hover-color:var(--fa-navy); 
+    width: 10%; height: 100%; 
+    --button-font-weight:var(--font-weight-normal); 
+    --button-margin-bottom:0;
+}
